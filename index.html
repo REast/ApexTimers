@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Apex Timers</title>
+   <meta name="description" content="Apex Timers">
+   <meta name="author" content="Ace">
+
+   <!-- CSS Refs -->
+   <link rel="stylesheet" href="css/style.css?v=1.0">
+</head>
+
+<body>
+   <div class="rowCollection" id="timerRowParent">
+
+      <!-- Row Template -->
+      <div class="row row-existing flex" id="timerRowTemplate">
+         <div class="icon flex centerContent">
+            <p>1</p>
+         </div>
+         <div class="timerText flex">
+            <p>01:30</p>
+         </div>
+         <div class="buttons flex centerContent">
+            <div class="button flex btn-delete centerContent">🞬</div>
+         </div>
+      </div>
+
+   </div>
+
+   <div class="row row-add flex">
+      <div class="button flex btn-add centerContent" id="addTimerBtn">✚</div>
+   </div>
+
+   <!-- JS Refs -->
+   <script src="js/main.js"></script>
+</body>
+</html>
