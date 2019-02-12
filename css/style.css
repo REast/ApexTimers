@@ -1,0 +1,86 @@
+html {
+   font-family: sans-serif;
+}
+
+html, body, .flex {
+   height: 100%;   
+}
+
+body {
+   background-color: #202020;
+}
+
+.flex {
+   display: flex;
+   align-items: center;
+}
+
+.centerContent {
+   justify-content: center;
+}
+
+.row {
+   padding-left: 8px;
+   height: 64px;   
+   margin: 0 0 8px 0;   
+   color: #ffffff;
+   border-radius: 8px;
+}
+
+.row-existing {
+   background-color: #404040;
+}
+
+.row-add {
+   background-color: #282828;
+   border: 5px dashed #505050;
+}
+
+.icon {
+   width: 48px;
+   height: 48px;
+   margin-right: 12px;
+   font-size: 32px;
+   font-weight: bold;
+   border-radius: 8px;
+   background-color: #606060;   
+}
+
+.timerText {
+   font-size: 42px;
+   font-family: monospace;
+   padding: 0 8px;
+   margin-right: 8px;
+   border-radius: 4px;
+   height: 48px;
+   background-color: #202020;
+   box-shadow: inset 0px 0px 2px #181818;
+}
+
+.timerExpired {
+   font-weight: bold;
+   color: #E02020;
+}
+
+.button {
+   height: 48px;
+   width: 48px;
+   margin: 0px;
+   font-size: 46px;
+   line-height: 48px;
+   border-radius: 8px;
+}
+
+.button:hover {
+   cursor: pointer;
+}
+
+.btn-delete {
+   background-color: #E02020;
+}
+
+.btn-add {
+   font-size: 40px;
+   line-height: 48px;
+   background-color: #4090E0;
+}
